@@ -6,7 +6,7 @@ GITLAB_GROUP_ID="1234"       # The GitLab group or project ID
 GITHUB_ORG="My-New-Account"  # Your GitHub organization name
 
 # GitLab API URL
-GITLAB_API_URL="https://gitlab.com/api/v4/groups/${GITLAB_GROUP_ID}/projects"
+GITLAB_API_URL="https://gitlab.com/api/v4/groups/${GITLAB_GROUP_ID}/projects?per_page=100"
 
 # Fetch repositories from GitLab
 echo "Fetching repositories from GitLab..."
